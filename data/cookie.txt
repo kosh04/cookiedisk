@@ -1,0 +1,3 @@
+# This file was generated! Edit at your own risk.
+httpbin.org	FALSE	/	FALSE	0	k1	v1
+httpbin.org	FALSE	/	TRUE	0	k2	v2
