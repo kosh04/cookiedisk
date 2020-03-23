@@ -1,14 +1,13 @@
 language: go
 
 go:
-  - 1.7
   - 1.x
   - tip
+  - master
 
 matrix:
   allow_fairures:
     - go: tip
 
 script:
-  - go vet ./...
-  - go test -v ./...
+  - make test cookiedisk
