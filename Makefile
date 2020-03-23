@@ -5,6 +5,6 @@ run:
 	go run ./cmd/cookiedisk/main.go $(ARGS)
 
 test:
-	go test ./...
+	go test -v ./...
 
 .PHONY: run test
