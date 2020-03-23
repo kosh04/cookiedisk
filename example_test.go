@@ -13,7 +13,7 @@ import (
 
 func ExampleReadFile() {
 	rawURL := "http://httpbin.org/cookies"
-	cookies, _ := cookiedisk.ReadFile("./data/cookie.txt")
+	cookies, _ := cookiedisk.ReadFile("testdata/cookie.txt")
 	u, _ := url.Parse(rawURL)
 	jar, _ := cookiejar.New(nil)
 	jar.SetCookies(u, cookies)

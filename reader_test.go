@@ -64,7 +64,7 @@ func TestReadFile(t *testing.T) {
 		want     []*http.Cookie
 	}{
 		{
-			filename: "data/cookie.txt",
+			filename: "testdata/cookie.txt",
 			want: []*http.Cookie{
 				{
 					Domain: "httpbin.org",
